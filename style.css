@@ -1,0 +1,82 @@
+/* import font */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 28px;
+  font-family: "Manrope", sans-serif;
+  background-color: var(--bg-color);
+}
+
+:root {
+  --bg-color: hsl(218, 23%, 16%);
+  --advicecard-color: hsl(217, 19%, 24%);
+  --advicetext-color: hsl(193, 38%, 86%);
+  --button-color: hsl(150, 100%, 66%);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  position: relative;
+  margin: auto;
+}
+
+.advice-card {
+  position: absolute;
+  flex-direction: column;
+  margin: auto;
+  top: 150px;
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;
+  border: 1 px solid var(--button-color);
+  background-color: var(--advicecard-color);
+}
+
+.advice-card > .advice-card--text {
+  position: absolute;
+  text-align: center;
+  top: 20px;
+}
+
+.advice-card--text h1 {
+  color: var(--button-color);
+  font-size: 28px;
+  letter-spacing: 2px;
+  padding-bottom: 15px;
+}
+
+.advice-card--text p {
+  color: var(--advicetext-color);
+  font-size: 20px;
+}
+
+.advice-card > .advice-card--divider {
+  position: absolute;
+  top: 210px;
+}
+
+.advice-card > .advice-card--button button {
+  background-color: var(--button-color);
+  border-radius: 50px;
+  border: none;
+  padding: 15px;
+  position: absolute;
+  top: 270px;
+  left: 225px;
+}
