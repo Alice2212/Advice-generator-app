@@ -91,3 +91,14 @@ main {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media screen and (max-width: 932px) {
+  .advice-card {
+    position: absolute;
+    flex-direction: column;
+    margin: auto;
+    top: 100px;
+    width: 500vw;
+    height: 300vh;
+  }
+}
