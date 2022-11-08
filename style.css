@@ -58,7 +58,7 @@ main {
   color: var(--button-color);
   font-size: 28px;
   letter-spacing: 2px;
-  padding-bottom: 10px;
+  padding-bottom: 2px;
 }
 
 .advice-card--text p {
@@ -94,18 +94,18 @@ main {
 
 @media screen and (max-width: 520px) {
   .advice-card {
-    margin: 1auto;
-    left: 5%;
-    top: 70px;
-    width: 90%;
-    height: 350px;
+    margin: auto;
+    left: 10%;
+    top: 40px;
+    width: 80%;
+    height: 400px;
   }
 
   .advice-card > .advice-card--divider {
     content: url("./images/pattern-divider-mobile.svg");
     position: absolute;
     width: 80%;
-    top: 83%;
+    top: 86%;
   }
 
   .advice-card > .advice-card--button button {
