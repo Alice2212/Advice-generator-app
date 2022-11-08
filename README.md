@@ -67,6 +67,6 @@ const proudOfThisFunc = () => {
 
 ## Author
 
-- Website - [Oyekale Alice Oluwatosin](https://www.your-site.com)
+- Website - [](https://www.your-site.com)
 - Frontend Mentor - [](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@AliceOyekale](https://www.twitter.com/AliceOyekale)
