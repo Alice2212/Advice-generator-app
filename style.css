@@ -93,7 +93,7 @@ main {
 }
 
 @media screen and (max-width: 932px) {
-  main {
+  body {
     margin: 1rem;
   }
 }
