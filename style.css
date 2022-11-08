@@ -96,9 +96,9 @@ main {
   .advice-card {
     position: absolute;
     flex-direction: column;
-    margin: auto;
+    margin: 1rem;
     top: 100px;
-    width: 500vw;
-    height: 300vh;
+    width: 70%;
+    height: 70%;
   }
 }
